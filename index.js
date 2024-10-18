@@ -10,3 +10,26 @@ function increment(){
     document.getElementById("count-el").innerText=count
     console.log(count)
 }
+
+
+function save(){
+    let save1 = 0
+    save1 = count
+    document.getElementById("save2").innerText = save2.innerText + save1 + "-";
+}
+
+function autoIncrement(){
+    let x = prompt("What value?")
+    for(let i = 0; i < x; i++){
+        count = count + 1
+        document.getElementById("count-el").innerText=count
+    }
+    console.log(count)
+}
+
+function increment(){
+    let x = prompt("What value?")
+    for(let i = 0; i < x; i++){
+    setTimeout(autoIncrement, 1000)
+}
+}
