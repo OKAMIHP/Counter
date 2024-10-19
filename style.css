@@ -8,6 +8,7 @@ body {
   /*to avoid image repetition if you have a background image, this will take the entire viewport */
   height: 100vh;
 }
+
 .container {
   background: white;
   opacity: 0.9;
